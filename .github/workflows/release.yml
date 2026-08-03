@@ -196,7 +196,7 @@ jobs:
       # step — most people never open a docs file, and without it the first thing a new user sees is
       # "Apple could not verify this app".
       - name: Attach to the release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           draft: false
           fail_on_unmatched_files: false
